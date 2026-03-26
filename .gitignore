@@ -1,0 +1,15 @@
+# Build outputs
+build/
+dist/
+out/
+
+# ESP-IDF app build outputs
+**/build/
+**/sdkconfig
+**/sdkconfig.old
+apps/*/.env
+
+# Tooling
+.DS_Store
+*.swp
+*.swo
