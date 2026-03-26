@@ -35,6 +35,7 @@ See [`CODEBASE.md`](./CODEBASE.md) for the repository code organization rules.
 
 ## Common Scripts
 
+- `./scripts/install_deps.sh` installs Linux-side repository dependencies and bootstraps ESP-IDF through `eim`
 - `./scripts/flash.sh <target>` flashes an app from `apps/<target>` using `/dev/ttyACM0` by default
 - `./scripts/monitor.sh [target]` opens a UART monitor for an app using `/dev/ttyACM0` by default
 
